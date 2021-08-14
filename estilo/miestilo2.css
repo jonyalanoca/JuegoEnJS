@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: grey;
+}
+#contenedor{
+    background-image: url('imagenes/fondo_estrellas.gif');
+    margin:auto;
+    width: 500px;
+    height: 600px;
+    margin-top: 30px;
+}
+#contenedor2{
+    background-color:black;
+    height: 550px;
+    width:400px;
+    margin: auto;
+    opacity: 0.8;
+
+}
+#top{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+#titulo{
+    font-size: 45px;
+    color: blanchedalmond;
+    margin-top: 20px;
+    margin-left: 200px;
+    font-family: fantasy;
+    align-items: center;
+    animation: aparecer 4s 1;
+    overflow: hidden;
+}
+#titulos{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(148, 17, 3);
+    /* background-color: brown; */
+    float: left;
+    width: 200px;
+    /* margin-left: px; */
+    position:relative;
+    text-align: center;
+
+}
+#yanosequenombreponer{  
+    animation: luz 7s 1;
+    /* animation-delay: 3s; */
+}
+.puntajes{
+    margin-top: 10px;
+    color:white;
+    /* background-color: brown; */
+    float: left;
+    width: 200px;
+    /* margin-left: px; */
+    position:relative;
+    text-align: center;
+
+}
+#footer{
+    text-align: right;
+    color: yellowgreen;
+    position:relative;
+    font-size: 10px;
+}
+@keyframes aparecer{
+    0%{
+        margin-top: -20px;
+        opacity: 0;
+    }
+    100%{
+        margin-top: 20px;
+        opacity: 1;
+    }
+}
+@keyframes luz {
+    0%{
+        color: transparent;
+        opacity: 0;
+    }
+    60%{
+        color: transparent;
+        opacity: 0;
+    }
+    100%{
+        color: white;
+        opacity: 1;
+    }
+    
+}
+.boton{
+    color:white;
+    text-decoration: none;
+    /* background-color:#a245c7; */
+    padding: 5px 5px;
+    font-size:20px;
+    /* overflow: hidden; */
+    /* text-decoration: none; */
+    transition: 0.5s;
+    font-family: arial;
+    position:relative;
+    cursor: pointer;
+    border-color: rgb(177, 26, 177);
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 50px;
+    margin-left: 65px;    
+}
+.boton:hover{
+    background-color:#a945c7;
+    font-size: 21px;
+    box-shadow: 0 0 10px #a945c7,0 0 40px #a945c7, 0 0 80px #a945c7;
+}

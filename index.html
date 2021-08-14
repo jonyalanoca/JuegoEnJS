@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lag='es'>
+    <head>
+        <meta charset='UTF-8'>
+        <title>Atrapame</title>
+        <link rel='stylesheet' type='text/css' href='estilo/miestilo.css'>
+        <script src='javascript/comenzar.js'></script>
+    </head>
+    <body>
+        <div id='contenedor'>
+            <div id='estado'>
+                <img class='logo_principal' src='imagenes/logo_juego.png'>
+                <p class='label'>Tiempo restante</p>
+                <div>
+                    <ul>
+                        <li class="label_timer" style="margin-left:110px" id='seg'>60</li>
+                        <li class="label_timer"> s</li>
+                    </ul>
+                </div>
+                <p class='label'>Puntaje</p>
+                <p class='label' id='puntaje' style='font-size:40px'>0</p>
+                
+                <a class='boton' onclick='inicio()'>INICIAR</a>
+            </div>
+            <div id='decoracion'>
+                <p class="label" id='nivel'> NIVEL JUNIOR</p>
+            </div>
+            <div id='juego'>
+                <img id='invasor' src='imagenes/invasor0.png' onclick="score()">
+            </div>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: grey;
+}
+#contenedor{
+    background-color: green;
+    margin:auto;
+    width: 900px;
+    height: 600px;
+    margin-top: 30px;
+}
+#estado{
+    background-color: black;
+    width: 290px;
+    height: 598px;
+    border-style: outset;
+    float:left;
+}
+#decoracion{
+    background-image: url('imagenes/fondo_estrellas.gif');
+    /* background-image: url('imagenes/fuego.gif'); */
+    width: 603px;
+    height: 100px;
+    float:right;
+}
+#juego{
+    background-image: url('imagenes/fondo_estrellas.gif');
+    float:right;
+    width:603px;
+    height: 500px;
+    float:right;
+    cursor: move;
+}
+.boton{
+    color:white;
+    /* background-color:#a245c7; */
+    padding: 15px 20px;
+    font-size:30px;
+    /* overflow: hidden; */
+    /* text-decoration: none; */
+    transition: 0.5s;
+    font-family: arial;
+    position:absolute;
+    cursor: pointer;
+    border-color: rgb(177, 26, 177);
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 50px;
+    margin-left: 65px;
+    
+}
+.boton:hover{
+    background-color:#a945c7;
+    font-size: 32px;
+    box-shadow: 0 0 10px #a945c7,0 0 40px #a945c7, 0 0 80px #a945c7;
+}
+.label{
+    color: white;
+    font-size: 30px;
+    margin:auto;
+    /* background-color: grey; */
+    width: 270px;
+    text-align: center;
+    cursor:default;
+    margin-top: 20px;
+}
+.label_timer{
+    margin: auto;
+    color: white;
+    /* background-color: grey; */
+    /* width: 270px; */
+    text-align: center;
+    cursor:default;
+    margin-top: 50px;
+    list-style: none;
+    display: inline;
+    font-size: 50px;
+
+}
+#nivel{
+    background-color:transparent;
+    font-family: fantasy;
+    font-size: 50px;
+    width: 500px;
+
+}
+.logo_principal{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+#invasor{
+    width: 40px;
+    height: 40px;
+    margin-top: 460px;
+    margin-left: 560px;
+    -moz-user-select: none; 
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}

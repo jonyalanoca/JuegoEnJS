@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel='stylesheet' type='text/css' href='estilo/miestilo2.css'>
+        <script src='javascript/comenzar.js'></script>
+        <title>Ranking</title>
+    </head>
+    <body onload="mostrar_rank()">
+        <div id='contenedor'>
+            <div id='contenedor2'>
+                <img id='top' src='imagenes/top.png'>
+                <p id='titulo' >MISIÓN</p>
+                <p id='titulo'>CUMPLIDA</p>
+                <div style="background-color: rgb(52, 58, 145);">.</div>
+                <div id='yanosequenombreponer' style="position: absolute;">
+                    <p id='titulos'>Combatiente</p>
+                    <p id='titulos'>Puntaje</p>
+                    <div>
+                        <p class='puntajes' id='nombres'></p>
+                        <p class='puntajes' id='tot_puntaje'></p>
+                    </div>
+                </div>
+                
+            </div>
+            <div>
+                <a class='boton' href="index.html" style="margin-left: 120px;" >Volver </a>
+                <a class='boton' onclick="borrar()">Borrar Score</a>
+            </div>
+            <div>
+                <p id='footer'>Version 1.0<br>Dev: J.A.</p>
+            </div>
+        </div>
+    </body>
+</html>
